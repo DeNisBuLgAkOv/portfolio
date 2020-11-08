@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper flex align">
+            <h1>Киномания</h1>
+            <select>
+                <option value="">Москва и МО</option>
+                <option value="">Ростов-на-Дону</option>
+                <option value="">Пенза</option>
+                <option value="">Тараз</option>
+                <option value="">Саратов</option>
+                <option value="">Самара</option>
+            </select>
+            <ul class="flex">
+                <li><a href="">Фильмы</a></li>
+                <li><a href="">Кинотеатры</a></li>
+                <li><a href="">Акции и скидки</a></li>
+                <li><a href="">Арт</a></li>
+                <li><a href="">IMAX</a></li>
+                <li><a href="">GOLG Club</a></li>
+            </ul>
+            <div class="registr">
+                <img src="img/icon-user.png" alt="">
+                <a href="">Личный кабинет </a>
+            </div> 
+        </div>
+    </div>
+    <div class="logo">
+       <img src="img/logo.jpg" alt="">
+    </div>
+    <div class="about">
+        <div class="wrapper ">
+           <div class="about_menu flex align ">
+                   <h2>В Киномакс</h2>
+                   <ul class="flex">
+                       <li><a href="">Кино</a></li>
+                       <li><a href="">Театр</a></li>
+                       <li><a href="">Арт</a></li>
+                    </ul>
+                    <img src="img/coca-cola.png" alt="coca-cola">
+            </div>
+        </div>    
+        <div class="films flex justify ">
+                <div class="align">
+                    <img src="img/k1.jpg" alt="">
+                    <p>Довод</p>
+                    <p>Боевик, Фантастика , Трейлер</p>
+                </div>
+                <div>
+                    <img src="img/k2.jpg" alt="">
+                    <p>Мулан</p>
+                </div>
+                <div>
+                    <img src="img/k3.jpg" alt="">
+                    <p>dferef</p>
+                </div>
+                
+        </div>     
+    </div>
+    <div class="discounts">
+        <div class="wrapper">
+            <div class="discounts1 flex">
+                <div>
+                    <h2>Смотрите новинки кино с выгодой!</h2>
+                    <p>Цена на билеты ниже в Дни кино. Предложение также актуально для IMAX-залов!</p>
+                    <a href="">Подробнее об акции</a>
+                </div>
+                <div>
+                    <img src="img/discounts1.png" alt="">
+                </div>
+            </div>
+            <div class="discounts2 flex">
+                <div>
+                    <img src="img/discounts1.png" alt="">
+                </div>
+                <div>
+                    <h2>Смотрите новинки кино с выгодой!</h2>
+                    <p>Цена на билеты ниже в Дни кино. Предложение также актуально для IMAX-залов!</p>
+                    <a href="">Подробнее об акции</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="wrapper">
+            <div class="justify flex">
+                <h2>Новости Киномакс</h2>
+                <a href="">Все новости</a>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+
+<style type="text/css">
+   *{
+    margin: 0px;
+    padding: 0px;
+   }
+   .align{
+    align-items: center;
+   }
+   .flex{
+    display: flex;
+   }
+   .justify{
+    justify-content: space-between;
+   }
+   .header{
+        background-color: #6d318e;
+    }
+    .wrapper{
+        width: 1170px;
+        margin: 0 auto;
+    }
+    h1{
+        color: white;
+        font-weight: bold;
+
+    }
+    select{
+        margin-left: 20px; 
+        padding: 10px 0 10px 0;
+    }
+    
+    
+    ul{
+        list-style-type: none;
+    }
+    .header a{
+        text-decoration: none;
+        color: white;
+        padding-left: 25px;
+        font-size: 15px;
+     }
+     .header a:hover{
+        color: grey;
+     }
+     .registr{
+        margin-left: 40px;
+     }
+
+     .logo{
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+     }
+     .about{
+        background-color: black;
+     }
+     h2{
+        color: white;
+     }
+    .about_menu > img{
+        padding-left: 600px;
+    }
+    .about_menu a{
+        text-decoration: none;
+        color: white;
+        padding-left: 25px;
+        font-size: 25px;
+    }
+      .about_menu a:hover{
+        color: blue;
+      }
+    .about_menu{
+        border-bottom: 4px solid grey;
+    }
+    .films{
+        padding-top: 70px;
+    }
+    .films p{
+        color: white;
+    
+    }
+    .discounts{
+        background-color: #131e29;
+    }
+    .discounts1{
+        padding-top: 65px;
+        padding-bottom: 50px;
+    }
+    .discounts1 img{
+        padding-left: 50px;
+    }
+    .discounts p{
+        color: white;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .discounts a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .discounts a:hover{
+        color: blue;
+        border:2px solid blue;
+    }
+    .discounts2 img{
+        padding-right: 50px;
+    } 
+    .news{
+        background-color: #212226;
+    }
+    .news .wrapper >div{
+        padding-top: 50px;
+    }
+    .news .wrapper >div a{
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 3px;
+        color: white;
+    }
+     .news .wrapper >div a:hover{
+        color: blue;
+        border: 2px solid blue;
+        transition: 1.5s;
+     }
+</style>
+</body>
+</html>
